@@ -4,9 +4,6 @@
 # CLARABEL_INCLUDE_DIRS, the include preprocessor flags (w/o the '-I')
 # In addition it defines the target CLARABEL::clarabel.
 
-# Copyright (c) Legal Entities in the BISL Group
-# SPDX-License-Identifier: LicenseRef-BISL-1.0
-
 if(NOT TARGET CLARABEL::clarabel)
     find_package(PkgConfig REQUIRED)
     pkg_check_modules(CLARABEL REQUIRED Clarabel)
